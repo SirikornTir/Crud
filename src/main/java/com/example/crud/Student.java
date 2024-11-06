@@ -19,16 +19,16 @@ public class Student {
 	private Long id ; 
 	
 	@Column(name = "email", nullable = false)
-	private String eMail ;
+	private String email ;
 	
 	@Column(name = "user_name", nullable = false)
 	private String userName ; 
 	
 	@Column(name = "type", nullable = false)
-	private String Type ;
+	private String type ;
 	
 	@Column(name = "faculty", nullable = false)
-	private String Faculty ;
+	private String faculty ;
 	
 	@Column(name = "eng_name", nullable = false)
 	private String engName ;
